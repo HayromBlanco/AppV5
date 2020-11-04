@@ -29,34 +29,38 @@
           "lib/netstandard2.0/LiteDB.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.FxCopAnalyzers/3.0.0": {
+      "Microsoft.CodeAnalysis.FxCopAnalyzers/3.3.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeAnalysis.VersionCheckAnalyzer": "[3.0.0]",
-          "Microsoft.CodeQuality.Analyzers": "[3.0.0]",
-          "Microsoft.NetCore.Analyzers": "[3.0.0]",
-          "Microsoft.NetFramework.Analyzers": "[3.0.0]"
+          "Microsoft.CodeAnalysis.VersionCheckAnalyzer": "[3.3.1]",
+          "Microsoft.CodeQuality.Analyzers": "[3.3.1]",
+          "Microsoft.NetCore.Analyzers": "[3.3.1]",
+          "Microsoft.NetFramework.Analyzers": "[3.3.1]"
         },
         "build": {
-          "build/Microsoft.CodeAnalysis.FxCopAnalyzers.props": {}
+          "build/Microsoft.CodeAnalysis.FxCopAnalyzers.props": {},
+          "build/Microsoft.CodeAnalysis.FxCopAnalyzers.targets": {}
         }
       },
-      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/3.0.0": {
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/3.3.1": {
         "type": "package",
         "build": {
-          "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props": {}
+          "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props": {},
+          "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.targets": {}
         }
       },
-      "Microsoft.CodeQuality.Analyzers/3.0.0": {
+      "Microsoft.CodeQuality.Analyzers/3.3.1": {
         "type": "package",
         "build": {
-          "build/Microsoft.CodeQuality.Analyzers.props": {}
+          "build/Microsoft.CodeQuality.Analyzers.props": {},
+          "build/Microsoft.CodeQuality.Analyzers.targets": {}
         }
       },
-      "Microsoft.NetCore.Analyzers/3.0.0": {
+      "Microsoft.NetCore.Analyzers/3.3.1": {
         "type": "package",
         "build": {
-          "build/Microsoft.NetCore.Analyzers.props": {}
+          "build/Microsoft.NetCore.Analyzers.props": {},
+          "build/Microsoft.NetCore.Analyzers.targets": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -77,10 +81,11 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NetFramework.Analyzers/3.0.0": {
+      "Microsoft.NetFramework.Analyzers/3.3.1": {
         "type": "package",
         "build": {
-          "build/Microsoft.NetFramework.Analyzers.props": {}
+          "build/Microsoft.NetFramework.Analyzers.props": {},
+          "build/Microsoft.NetFramework.Analyzers.targets": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -234,7 +239,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.7.0.1179": {
+      "Xamarin.Forms/4.8.0.1560": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -286,10 +291,10 @@
         "litedb.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.FxCopAnalyzers/3.0.0": {
-      "sha512": "ea8bbNa4fzS/s55AUCAvYjb6Y3lFysFVfEwt9zIwR/NeFpOcUluIleOXSUPAyUtwBFugn01aWvNfMVmIwnvgqQ==",
+    "Microsoft.CodeAnalysis.FxCopAnalyzers/3.3.1": {
+      "sha512": "O6L7wOD6dmytWZr4ulw6wLYk8QmsO/TlBHyWOB2OQKnUm31JGOXEncJjVm8Fw24BDzP22wfsleWFidiNU/DIsA==",
       "type": "package",
-      "path": "microsoft.codeanalysis.fxcopanalyzers/3.0.0",
+      "path": "microsoft.codeanalysis.fxcopanalyzers/3.3.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -297,6 +302,7 @@
         "EULA.rtf",
         "ThirdPartyNotices.rtf",
         "build/Microsoft.CodeAnalysis.FxCopAnalyzers.props",
+        "build/Microsoft.CodeAnalysis.FxCopAnalyzers.targets",
         "documentation/Analyzer Configuration.md",
         "documentation/Microsoft.CodeAnalysis.FxCopAnalyzers.md",
         "documentation/Microsoft.CodeAnalysis.FxCopAnalyzers.sarif",
@@ -321,13 +327,15 @@
         "editorconfig/PerformanceRulesEnabled/.editorconfig",
         "editorconfig/PortedFromFxCopRulesDefault/.editorconfig",
         "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
+        "editorconfig/PublishRulesDefault/.editorconfig",
+        "editorconfig/PublishRulesEnabled/.editorconfig",
         "editorconfig/ReliabilityRulesDefault/.editorconfig",
         "editorconfig/ReliabilityRulesEnabled/.editorconfig",
         "editorconfig/SecurityRulesDefault/.editorconfig",
         "editorconfig/SecurityRulesEnabled/.editorconfig",
         "editorconfig/UsageRulesDefault/.editorconfig",
         "editorconfig/UsageRulesEnabled/.editorconfig",
-        "microsoft.codeanalysis.fxcopanalyzers.3.0.0.nupkg.sha512",
+        "microsoft.codeanalysis.fxcopanalyzers.3.3.1.nupkg.sha512",
         "microsoft.codeanalysis.fxcopanalyzers.nuspec",
         "rulesets/AllRulesDefault.ruleset",
         "rulesets/AllRulesDisabled.ruleset",
@@ -350,6 +358,8 @@
         "rulesets/PerformanceRulesEnabled.ruleset",
         "rulesets/PortedFromFxCopRulesDefault.ruleset",
         "rulesets/PortedFromFxCopRulesEnabled.ruleset",
+        "rulesets/PublishRulesDefault.ruleset",
+        "rulesets/PublishRulesEnabled.ruleset",
         "rulesets/ReliabilityRulesDefault.ruleset",
         "rulesets/ReliabilityRulesEnabled.ruleset",
         "rulesets/SecurityRulesDefault.ruleset",
@@ -369,10 +379,10 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.CodeAnalysis.VersionCheckAnalyzer/3.0.0": {
-      "sha512": "RL9OdvWLhtQXcvxK2EPbXM9LandLcDG14Ndz5baVH2aiyvEB11VrHfrzLNoEE5B2/zhRGqN+BHsBg21f75wG9g==",
+    "Microsoft.CodeAnalysis.VersionCheckAnalyzer/3.3.1": {
+      "sha512": "ZUMf70abtWvwevkLFOlEHDck81oZCsi9jBHODDSSH2YPQdtCKzeQfaWWnAmn2ii7N3Q2V2arOj4Mu8ZTTSs3PA==",
       "type": "package",
-      "path": "microsoft.codeanalysis.versioncheckanalyzer/3.0.0",
+      "path": "microsoft.codeanalysis.versioncheckanalyzer/3.3.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -394,6 +404,7 @@
         "analyzers/dotnet/zh-Hans/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
         "analyzers/dotnet/zh-Hant/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
         "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props",
+        "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.targets",
         "documentation/Analyzer Configuration.md",
         "documentation/Microsoft.CodeAnalysis.VersionCheckAnalyzer.md",
         "documentation/Microsoft.CodeAnalysis.VersionCheckAnalyzer.sarif",
@@ -406,7 +417,7 @@
         "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
         "editorconfig/ReliabilityRulesDefault/.editorconfig",
         "editorconfig/ReliabilityRulesEnabled/.editorconfig",
-        "microsoft.codeanalysis.versioncheckanalyzer.3.0.0.nupkg.sha512",
+        "microsoft.codeanalysis.versioncheckanalyzer.3.3.1.nupkg.sha512",
         "microsoft.codeanalysis.versioncheckanalyzer.nuspec",
         "rulesets/AllRulesDefault.ruleset",
         "rulesets/AllRulesDisabled.ruleset",
@@ -421,10 +432,10 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.CodeQuality.Analyzers/3.0.0": {
-      "sha512": "pOROTgdPa+15sYfEMvDlWlDEedCO1SuRLrRjX36Ltli3SmhZawC2Vgws4crz1XMs9WRzBo8WIJM5WRzGNsOSmQ==",
+    "Microsoft.CodeQuality.Analyzers/3.3.1": {
+      "sha512": "h6o+zBUf47OFarRQn6LjwUNFvRUyUWLWcnunw6vLCxSDBmgPDQCsrsWpEtMz/+NKBvOeikVJobscarx3Wgtbiw==",
       "type": "package",
-      "path": "microsoft.codequality.analyzers/3.0.0",
+      "path": "microsoft.codequality.analyzers/3.3.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -463,7 +474,9 @@
         "analyzers/dotnet/vb/tr/Microsoft.CodeQuality.Analyzers.resources.dll",
         "analyzers/dotnet/vb/zh-Hans/Microsoft.CodeQuality.Analyzers.resources.dll",
         "analyzers/dotnet/vb/zh-Hant/Microsoft.CodeQuality.Analyzers.resources.dll",
+        "build/DisableNETAnalyzersForNuGetPackage.props",
         "build/Microsoft.CodeQuality.Analyzers.props",
+        "build/Microsoft.CodeQuality.Analyzers.targets",
         "documentation/Analyzer Configuration.md",
         "documentation/Microsoft.CodeQuality.Analyzers.md",
         "documentation/Microsoft.CodeQuality.Analyzers.sarif",
@@ -490,7 +503,7 @@
         "editorconfig/SecurityRulesEnabled/.editorconfig",
         "editorconfig/UsageRulesDefault/.editorconfig",
         "editorconfig/UsageRulesEnabled/.editorconfig",
-        "microsoft.codequality.analyzers.3.0.0.nupkg.sha512",
+        "microsoft.codequality.analyzers.3.3.1.nupkg.sha512",
         "microsoft.codequality.analyzers.nuspec",
         "rulesets/AllRulesDefault.ruleset",
         "rulesets/AllRulesDisabled.ruleset",
@@ -519,10 +532,10 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.NetCore.Analyzers/3.0.0": {
-      "sha512": "JdjhkobYjmQAu4JpsEALDAr7xig2pzXMsXGilHJ2gvmUaUSBjYObw53CBaIkRXmPu0DaDPN8ze9LCtsRd1R8UA==",
+    "Microsoft.NetCore.Analyzers/3.3.1": {
+      "sha512": "8Ez3EImhFioAsB4bR2bBLA3Pkcz8K/VI6jPdnm98nLu+rodZU8s8QRjRnkrQEnC6VcVAVZJ8W7DL9yrfDsgjqQ==",
       "type": "package",
-      "path": "microsoft.netcore.analyzers/3.0.0",
+      "path": "microsoft.netcore.analyzers/3.3.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -559,7 +572,9 @@
         "analyzers/dotnet/vb/tr/Microsoft.NetCore.Analyzers.resources.dll",
         "analyzers/dotnet/vb/zh-Hans/Microsoft.NetCore.Analyzers.resources.dll",
         "analyzers/dotnet/vb/zh-Hant/Microsoft.NetCore.Analyzers.resources.dll",
+        "build/DisableNETAnalyzersForNuGetPackage.props",
         "build/Microsoft.NetCore.Analyzers.props",
+        "build/Microsoft.NetCore.Analyzers.targets",
         "documentation/Analyzer Configuration.md",
         "documentation/Microsoft.NetCore.Analyzers.md",
         "documentation/Microsoft.NetCore.Analyzers.sarif",
@@ -576,13 +591,15 @@
         "editorconfig/PerformanceRulesEnabled/.editorconfig",
         "editorconfig/PortedFromFxCopRulesDefault/.editorconfig",
         "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
+        "editorconfig/PublishRulesDefault/.editorconfig",
+        "editorconfig/PublishRulesEnabled/.editorconfig",
         "editorconfig/ReliabilityRulesDefault/.editorconfig",
         "editorconfig/ReliabilityRulesEnabled/.editorconfig",
         "editorconfig/SecurityRulesDefault/.editorconfig",
         "editorconfig/SecurityRulesEnabled/.editorconfig",
         "editorconfig/UsageRulesDefault/.editorconfig",
         "editorconfig/UsageRulesEnabled/.editorconfig",
-        "microsoft.netcore.analyzers.3.0.0.nupkg.sha512",
+        "microsoft.netcore.analyzers.3.3.1.nupkg.sha512",
         "microsoft.netcore.analyzers.nuspec",
         "rulesets/AllRulesDefault.ruleset",
         "rulesets/AllRulesDisabled.ruleset",
@@ -597,6 +614,8 @@
         "rulesets/PerformanceRulesEnabled.ruleset",
         "rulesets/PortedFromFxCopRulesDefault.ruleset",
         "rulesets/PortedFromFxCopRulesEnabled.ruleset",
+        "rulesets/PublishRulesDefault.ruleset",
+        "rulesets/PublishRulesEnabled.ruleset",
         "rulesets/ReliabilityRulesDefault.ruleset",
         "rulesets/ReliabilityRulesEnabled.ruleset",
         "rulesets/SecurityRulesDefault.ruleset",
@@ -637,10 +656,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NetFramework.Analyzers/3.0.0": {
-      "sha512": "Q0sB3JYld9JMa9/HKtioIxhqmOohEku1FkfSC/uf0usGcCIhm6GYWU565klP64jC2kzmjFIu/6fkHEIYRqZCQQ==",
+    "Microsoft.NetFramework.Analyzers/3.3.1": {
+      "sha512": "EI5Afqt03Kq4Wy5Ot6nGvnwunisM9ORi5L9fteCCOK1Wh283wAhM1dIOWOsBN3jlFbw1VTeVPR8oPz9J9xlHLw==",
       "type": "package",
-      "path": "microsoft.netframework.analyzers/3.0.0",
+      "path": "microsoft.netframework.analyzers/3.3.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -677,7 +696,9 @@
         "analyzers/dotnet/vb/tr/Microsoft.NetFramework.Analyzers.resources.dll",
         "analyzers/dotnet/vb/zh-Hans/Microsoft.NetFramework.Analyzers.resources.dll",
         "analyzers/dotnet/vb/zh-Hant/Microsoft.NetFramework.Analyzers.resources.dll",
+        "build/DisableNETAnalyzersForNuGetPackage.props",
         "build/Microsoft.NetFramework.Analyzers.props",
+        "build/Microsoft.NetFramework.Analyzers.targets",
         "documentation/Analyzer Configuration.md",
         "documentation/Microsoft.NetFramework.Analyzers.md",
         "documentation/Microsoft.NetFramework.Analyzers.sarif",
@@ -692,7 +713,7 @@
         "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
         "editorconfig/SecurityRulesDefault/.editorconfig",
         "editorconfig/SecurityRulesEnabled/.editorconfig",
-        "microsoft.netframework.analyzers.3.0.0.nupkg.sha512",
+        "microsoft.netframework.analyzers.3.3.1.nupkg.sha512",
         "microsoft.netframework.analyzers.nuspec",
         "rulesets/AllRulesDefault.ruleset",
         "rulesets/AllRulesDisabled.ruleset",
@@ -1545,10 +1566,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.7.0.1179": {
-      "sha512": "QY/wwwG/OTOK9UGUalL4u3fKDQ5bh86nVa+M8bmKCq8/QdgZSXRQ/YVwDh0Mew0MaKsZZwTZUNGOGRc52fb+/Q==",
+    "Xamarin.Forms/4.8.0.1560": {
+      "sha512": "uWw6knrT26YOI+vZXB8YvYAEimycokY0qN58u++Rb7Y4tcWm/Fzn6UWaGaTCY1VppTXA1JrQMsb5vxBvoyYFhg==",
       "type": "package",
-      "path": "xamarin.forms/4.7.0.1179",
+      "path": "xamarin.forms/4.8.0.1560",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1814,6 +1835,7 @@
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PickerStyle.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PromptDialog.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Resources.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Shell/ShellPageWrapper.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/SliderStyle.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/StepperControl.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xaml",
@@ -1846,6 +1868,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PickerStyle.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PromptDialog.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Resources.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Shell/ShellPageWrapper.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/SliderStyle.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/StepperControl.xaml",
@@ -1855,7 +1878,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.7.0.1179.nupkg.sha512",
+        "xamarin.forms.4.8.0.1560.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -1863,10 +1886,10 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "FirebaseDatabase.net >= 4.0.4",
-      "Microsoft.CodeAnalysis.FxCopAnalyzers >= 3.0.0",
+      "Microsoft.CodeAnalysis.FxCopAnalyzers >= 3.3.1",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.5.3.2",
-      "Xamarin.Forms >= 4.7.0.1179"
+      "Xamarin.Forms >= 4.8.0.1560"
     ]
   },
   "packageFolders": {
@@ -1922,7 +1945,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[3.0.0, )"
+            "version": "[3.3.1, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -1936,7 +1959,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.7.0.1179, )"
+            "version": "[4.8.0.1560, )"
           }
         },
         "imports": [
@@ -1949,7 +1972,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

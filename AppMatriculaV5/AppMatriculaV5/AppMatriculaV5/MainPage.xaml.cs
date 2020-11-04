@@ -12,7 +12,7 @@ namespace AppMatriculaV5
         FirebaseHelper FireBaseHelper = new FirebaseHelper();
         public MainPage()
         {
-           // InitializeComponent();
+            InitializeComponent();
         }
 
         protected async override void OnAppearing()

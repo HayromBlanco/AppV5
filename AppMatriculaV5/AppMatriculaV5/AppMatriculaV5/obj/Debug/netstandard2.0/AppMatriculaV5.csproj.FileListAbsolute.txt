@@ -2,8 +2,10 @@ C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\bin\
 C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\bin\Debug\netstandard2.0\AppMatriculaV5.dll
 C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\bin\Debug\netstandard2.0\ref\AppMatriculaV5.dll
 C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\bin\Debug\netstandard2.0\AppMatriculaV5.pdb
+C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\obj\Debug\netstandard2.0\AppMatriculaV5.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\obj\Debug\netstandard2.0\MasterPage.xaml.g.cs
 C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\obj\Debug\netstandard2.0\AppMatriculaV5.AssemblyInfoInputs.cache
 C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\obj\Debug\netstandard2.0\AppMatriculaV5.AssemblyInfo.cs
 C:\Users\NeidennX\source\repos\AppMatriculaV5\AppMatriculaV5\AppMatriculaV5\obj\Debug\netstandard2.0\AppMatriculaV5.csproj.CoreCompileInputs.cache

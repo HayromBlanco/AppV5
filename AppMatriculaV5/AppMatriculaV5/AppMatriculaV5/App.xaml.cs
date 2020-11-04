@@ -8,9 +8,9 @@ namespace AppMatriculaV5
     {
         public App()
         {
-            //InitializeComponent();
-
-            MainPage = new MainPage();
+            InitializeComponent();
+            MainPage = new MasterPage();
+            //MainPage = new MainPage();
         }
 
         protected override void OnStart()

@@ -2,35 +2,36 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  
                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
                  xmlns:local="clr-namespace:AppMatriculaV5"  
-                 x:Class="AppMatriculaV5.MainPage">
+                 x:Class="AppMatriculaV5.MainPage" Scale="1">
+    
 
     <StackLayout>
         <StackLayout>
             <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
-              
-                <Image x:Name="imgBanner" Source="banner.png" ></Image>
+
+                <!--<Image x:Name="imgBanner" Source="C:\Users\NeidennX\source\repos\AppMatriculaV5\Images\Shaolin.png" ></Image>-->
+
+                <Image Margin="0,0,0,10" HeightRequest="50" Source="C:\Users\NeidennX\source\repos\AppMatriculaV5\Images\Templo.png" ></Image>
                 
-                <Image Margin="0,0,0,10" HeightRequest="100" Source="firebase.png" ></Image>
+                <Label Margin="0,0,0,10" Text="Matricula Templo Shaolin" FontAttributes="Bold" FontSize="Medium" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
                 
-                <Label Margin="0,0,0,10" Text="Firebase Realtime Database" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
+                <Entry x:Name="txtId" Placeholder="ID" MinimumHeightRequest="-1" Margin="0,-2,0,0" AnchorX="0.5" HeightRequest="-1" FontSize="Medium"></Entry>
                 
-                <Entry x:Name="txtId" Placeholder="ID"></Entry>
-                
-                <Entry x:Name="txtName" Placeholder="Nombre"></Entry>
+                <Entry x:Name="txtName" Placeholder="Nombre" FontSize="Medium"></Entry>
 
-                <Entry x:Name="txtApellido" Placeholder="Apellido"></Entry>
+                <Entry x:Name="txtApellido" Placeholder="Apellido" FontSize="Medium"></Entry>
 
-                <Entry x:Name="txtEnfermedad" Placeholder="Enfermedad"></Entry>
+                <Entry x:Name="txtEnfermedad" Placeholder="Enfermedad" FontSize="Medium"></Entry>
 
-                <Entry x:Name="txtNacimiento" Placeholder="Fecha de Nacimiento"></Entry>
+                <Entry x:Name="txtNacimiento" Placeholder="Fecha de Nacimiento"  FontSize="Medium"></Entry>
 
-                <Entry x:Name="txtCedula" Placeholder="Cedula"></Entry>
+                <Entry x:Name="txtCedula" Placeholder="Cedula"  FontSize="Medium"></Entry>
 
-                <Entry x:Name="txtTelefono" Placeholder="Telefono"></Entry>
+                <Entry x:Name="txtTelefono" Placeholder="Telefono"  FontSize="Medium"></Entry>
 
-                <Entry x:Name="txtCurso" Placeholder="Curso"></Entry>
+                <Entry x:Name="txtCurso" Placeholder="Curso"  FontSize="Medium"></Entry>
 
-                <Entry x:Name="txtMonto" Placeholder="Monto"></Entry>
+                <Entry x:Name="txtMonto" Placeholder="Monto"  FontSize="Medium"></Entry>
 
                 <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                 
